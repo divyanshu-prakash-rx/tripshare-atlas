@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripShare Atlas — Split group expenses, settle up, stay friends</title>
+  <meta name="description" content="TripShare Atlas splits group expenses, tracks who owes whom, and settles up fairly. Coming soon to Google Play." />
+  <meta name="theme-color" content="#0A0E14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- animated backdrop -->
+  <div class="aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="nav">
+    <div class="wrap">
+      <a href="#top" class="brand"><span class="mark"></span> TripShare Atlas</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="top">
+    <div class="wrap">
+      <div>
+        <span class="pill"><span class="dot"></span> Coming Soon</span>
+        <h1>Split expenses.<br /><span class="grad">Settle up.</span> Stay friends.</h1>
+        <p class="lead">TripShare Atlas takes the awkward math out of shared spending — so your group always knows exactly who owes whom.</p>
+        <div class="hero-cta">
+          <button class="btn btn-primary is-soon" disabled aria-disabled="true">
+            ▶  Download Now
+          </button>
+          <a href="#features" class="btn btn-ghost">Explore features</a>
+        </div>
+        <p class="soon-note">🚧 Launching soon on Google Play — this button goes live on release day.</p>
+      </div>
+
+      <!-- floating phone mockup -->
+      <div class="hero-art">
+        <div class="phone">
+          <div class="screen">
+            <div class="s-title">Goa Weekend · Balances</div>
+            <div class="s-total">₹ 18,420</div>
+            <div class="row">
+              <span class="ic" style="background:rgba(63,229,176,.14)">🏖️</span>
+              <span class="nm">Aarav gets back</span>
+              <span class="amt cr">+₹ 2,140</span>
+            </div>
+            <div class="row">
+              <span class="ic" style="background:rgba(255,107,107,.14)">🍜</span>
+              <span class="nm">You owe the group</span>
+              <span class="amt dr">−₹ 980</span>
+            </div>
+            <div class="row">
+              <span class="ic" style="background:rgba(78,140,255,.14)">🚕</span>
+              <span class="nm">Meera gets back</span>
+              <span class="amt cr">+₹ 1,260</span>
+            </div>
+            <div class="row">
+              <span class="ic" style="background:rgba(138,92,255,.14)">🏨</span>
+              <span class="nm">Rohan owes the group</span>
+              <span class="amt dr">−₹ 2,420</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== FEATURES ===== -->
+  <section id="features">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="eyebrow">Built for groups</span>
+        <h2>Everything you need to share costs</h2>
+        <p>From a weekend trip to a shared flat — log it, split it, and let the app handle the rest.</p>
+      </div>
+      <div class="grid">
+        <div class="card reveal">
+          <div class="emoji">🧮</div>
+          <h3>Four ways to split</h3>
+          <p>Split any expense Equally, by Exact amounts, by Percentage, or by custom Shares — whatever's fair.</p>
+        </div>
+        <div class="card reveal d1">
+          <div class="emoji">⚖️</div>
+          <h3>Smart balances</h3>
+          <p>See each person's net position at a glance, with debt simplification that cuts the group down to the fewest payments.</p>
+        </div>
+        <div class="card reveal d2">
+          <div class="emoji">🤝</div>
+          <h3>Confirmed settle-ups</h3>
+          <p>Record a payback and the receiver approves it. Every approved settlement is timestamped and logged.</p>
+        </div>
+        <div class="card reveal">
+          <div class="emoji">📊</div>
+          <h3>Trip dashboards</h3>
+          <p>Total spent, your share, a category pie chart and per-payer breakdown — plus a dashboard across all your trips.</p>
+        </div>
+        <div class="card reveal d1">
+          <div class="emoji">⚡</div>
+          <h3>Real-time &amp; offline</h3>
+          <p>Updates sync instantly across every member's device, and your changes save even when you're offline.</p>
+        </div>
+        <div class="card reveal d2">
+          <div class="emoji">📤</div>
+          <h3>Invite &amp; export</h3>
+          <p>Share a 6-character join code through any app, and export any trip's expenses to a CSV file.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section id="how" style="background:var(--bg-2)">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="eyebrow">Three simple steps</span>
+        <h2>How TripShare Atlas works</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="num">1</div>
+          <h3>Create a trip</h3>
+          <p>Name it, pick an emoji and currency, and share the join code with your group.</p>
+        </div>
+        <div class="step reveal d1">
+          <div class="num">2</div>
+          <h3>Add expenses</h3>
+          <p>Log who paid and who took part. Choose how to split it — the math is instant.</p>
+        </div>
+        <div class="step reveal d2">
+          <div class="num">3</div>
+          <h3>Settle up</h3>
+          <p>Pay back the simplified amounts, confirm each settlement, and everyone's square.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="head reveal">
+        <span class="eyebrow">Good to know</span>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq">
+        <div class="qa reveal">
+          <button class="q">When will TripShare Atlas be available? <span class="chev">+</span></button>
+          <div class="a"><p>The app is in its final polish stage and launching soon on the Google Play Store. The "Download Now" button on this page will become a live link the moment it's published.</p></div>
+        </div>
+        <div class="qa reveal">
+          <button class="q">How much does it cost? <span class="chev">+</span></button>
+          <div class="a"><p>TripShare Atlas is free to download and use. There are no ads inside the app.</p></div>
+        </div>
+        <div class="qa reveal">
+          <button class="q">How do I split an expense unevenly? <span class="chev">+</span></button>
+          <div class="a"><p>Every expense supports four split types — Equal, Exact amounts, Percentages, and custom Shares. Pick whichever matches the situation, choose who took part, and the app calculates each person's share.</p></div>
+        </div>
+        <div class="qa reveal">
+          <button class="q">What is debt simplification? <span class="chev">+</span></button>
+          <div class="a"><p>Instead of everyone paying back everyone, the app works out the smallest set of transfers that clears all balances — so one person might make a single payment rather than five.</p></div>
+        </div>
+        <div class="qa reveal">
+          <button class="q">Does it work offline? <span class="chev">+</span></button>
+          <div class="a"><p>Yes. You can add and view expenses without a connection, and your changes sync automatically as soon as you're back online.</p></div>
+        </div>
+        <div class="qa reveal">
+          <button class="q">What data does the app collect? <span class="chev">+</span></button>
+          <div class="a"><p>Only what's needed to make group splitting work: your name, your email address, and the expense data you choose to enter. It's stored securely with Google Firebase. You can delete your account and all data from inside the app at any time — see our <a href="privacy.html">Privacy Policy</a> for full details.</p></div>
+        </div>
+        <div class="qa reveal">
+          <button class="q">How do I sign in? <span class="chev">+</span></button>
+          <div class="a"><p>Sign in with Google in one tap, or create an account with your email and password. Email sign-ups confirm their address before joining trips.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section>
+    <div class="wrap">
+      <div class="cta-box reveal">
+        <h2>Stop chasing people for money</h2>
+        <p>TripShare Atlas keeps the score so your group doesn't have to.</p>
+        <button class="btn btn-primary is-soon" disabled aria-disabled="true">▶  Download Now — Coming Soon</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="wrap">
+      <div class="brand"><span class="mark"></span> TripShare Atlas</div>
+      <div class="foot-links">
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:divyanshuprakash780@gmail.com">Contact</a>
+      </div>
+      <div>© 2026 TripShare Atlas</div>
+    </div>
+  </footer>
+
+  <script>
+    /* nav background on scroll */
+    const nav = document.getElementById('nav');
+    const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    /* scroll-reveal */
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    /* FAQ accordion */
+    document.querySelectorAll('.qa .q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const qa = btn.parentElement;
+        const open = qa.classList.contains('open');
+        document.querySelectorAll('.qa.open').forEach(o => {
+          o.classList.remove('open');
+          o.querySelector('.a').style.maxHeight = null;
+        });
+        if (!open) {
+          qa.classList.add('open');
+          const a = qa.querySelector('.a');
+          a.style.maxHeight = a.scrollHeight + 'px';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
