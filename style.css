@@ -122,6 +122,11 @@ section { padding: 96px 0; }
 .btn[disabled], .btn.is-soon { opacity: .65; cursor: not-allowed; }
 .btn[disabled]:hover { transform: none; box-shadow: 0 14px 34px -12px var(--primary); }
 
+/* Official Google Play badge (image has built-in clear-space padding) */
+.badge-link { display: inline-flex; align-items: center; transition: transform .15s ease; }
+.badge-link:hover { transform: translateY(-2px); }
+.play-badge { height: 68px; width: auto; display: block; }
+
 /* ---- hero ---- */
 .hero { padding-top: 56px; }
 .hero .wrap { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
